@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/sync.yml'
-      - '.github/diy/main.sh'
+      - '.github/diy/v2.sh'
   schedule:
     - cron: 0 */4 * * *
   repository_dispatch:
@@ -24,7 +24,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [main]
+        target: [v2]
 
     steps:
     - name: Checkout
