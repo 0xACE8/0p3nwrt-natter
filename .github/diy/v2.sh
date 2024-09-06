@@ -19,6 +19,6 @@ rm -rf $1
 #git clone --depth 1 https://github.com/mgz0227/OP-Packages natterx1 && mv -n natterx1/natter ./;rm -rf natterx1
 #git clone --depth 1 https://github.com/mgz0227/OP-Packages lanatter1 && mv -n lanatter1/luci-app-natter  ./; rm -rf lanatter1
 git clone --depth 1 https://github.com/mgz0227/OP-Packages natterx2 && mv -n natterx2/natter2 ./;rm -rf natterx2
-git clone --depth 1 https://github.com/mgz0227/OP-Packages lanatter2 && mv -n lanatter2/luci-app-natter2  ./; rm -rf lanatter1
+git clone --depth 1 https://github.com/mgz0227/OP-Packages lanatter2 && mv -n lanatter2/luci-app-natter2  ./; rm -rf lanatter2
 
 exit 0
